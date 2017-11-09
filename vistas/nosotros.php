@@ -2,147 +2,89 @@
 <?php include 'encabezado2.php' ?>
 <body>
 
-<article class="banner">
+<div class="bannern">
   <div class="fondo">
-
-  <article class="contenlogocorreo">
-    <figure class="pull-left">
-    <img src="../img/takit.png" alt="Transporte Takif" class="img-responsive">
-  </figure>
-
-  <article class="correoarriba pull-right">
-    <i class="fa fa-envelope-o fa-4x iconoarriba pull-left" aria-hidden="true"></i> <p class="textocorreoarriba pull-right"><a href="mailto:info@takif.net">info@takif.net</a></p>
-  </article>
-  </article>
-
-  <article class="contenmenutexto">
-     <div class="vertical-menu pull-left">
-  <a href="../index.php">INDEX <i class="fa fa-home fa-2x pull-right" aria-hidden="true"></i></a>
-  <a href="nosotros.php" class="active">NOSOTROS <i class="fa fa-user fa-2x pull-right" aria-hidden="true"></i></a>
-  <a href="servicios.php">SERVICIOS <i class="fa fa-briefcase fa-2x pull-right" aria-hidden="true"></i></a>
-  <a href="contacto.php">CONTACTO <i class="fa fa-phone fa-2x pull-right" aria-hidden="true"></i></a>
-</div>
-    <p class="texto-banner pull-right">Conoce mas sobre TAKIF TRANSPORTES</p>
-    <p class="texto-banner2 pull-right">¡Llevamos tu mercancia a donde tu quieras!</p>
-    <p class="boton"><a href="contacto.php">Solicita una cotización</a></p>
-  </article>
-  </div>
-</article>
-
-<h1 class="text-center text-center-size" style="color: #74A4D0; margin-top: 5%;">Nuestra experiencia a su servicio</h1>
-
-<div class="section textonosotros">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-4 adapted-img">
-          <img src="../img/nos.jpg" class="img-fluid img-thumbnail"> </div>
-        <div class="col-xs-12 col-sm-12 col-md-8">
-          <h1 class="text-primary">TAKIF TRANSPORTES</h1>
-          <p class="lead">Somos una garantía para el servicio de distribución de productos en en el pais y confían en nosotros grandes compañías internacionales y nacionales del sector de la alimentación, telécomunicaciones y la construcción. <br><br>TAKIF TRANSPORTES sigue siendo la empresa líder en el transporte de carga terrestre.</p>
-        </div>
+    <div class="container" style="margin-top: 2%;">
+     <div class="col-md-3" >
+        <a class="btn btn-block btn-lg btn-success" href="../index.php" >
+            <i class="fa fa-bars" id="icone_grande"></i> <br><br>
+            <span class="texto_grande"> INDEX</span></a>
       </div>
+      <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-danger" href="nosotros.php"  id="select">
+            <i class="fa fa-users" id="icone_grande"></i> <br><br>
+            <span class="texto_grande"> NOSOTROS</span></a>
+      </div>
+      <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-primary" href="servicios.php">
+            <i class="fa fa-cog" id="icone_grande"></i> <br><br>
+            <span class="texto_grande"> SERVICIOS</span></a>
+      </div>
+      <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-warning" href="contacto.php">
+            <i class="fa fa-phone" id="icone_grande"></i> <br><br>
+            <span class="texto_grande"> CONTACTO</span></a>
+      </div> 
+    </div>
+
+    <p>COBERTURA NACIONAL<br>SERVICIO JUSTO EN CAMION COMPLETO</p>
+    <figure class="logo">
+      <img src="../img/sovo.png" alt="SOVO" class="img-responsive">
+    </figure>
+    <div class="boton" style="text-align: center; margin-top: 3%;">
+      <a href="contacto.php"><button type="button" class="btn btn-danger btn-lg">CONTACTANOS</button></a>
+    </div>
+    
+  </div>
+</div>
+
+<div class="section" style="padding: 5% 0%;">
+  <div class="container">
+    <div class="row">
+      <h1 class="tit">QUIENES SOMOS</h1>
+      <p class="text-center texto2">Somos una empresa dedicada al aprovechamiento integral de recursos para la transportación eficiente. <br><br>
+        Nuestra finalidad es minimizar tiempos de espera de vehículos para cargar y tiempos de carga en almacén para ser cargada, obteniendo como consecuencia aumento de ingresos para el transportista al reducir tiempos de espera y movimientos vacíos, al tiempo que reducimos tiempos de espera en almacén y reducción de costos por la obtención de fletes de oportunidad para transportista y usuario del transporte, logrando con esto “eficiencia económica”. <br><br>
+
+      Para todo ello, contamos con un equipo de profesionales altamente cualificados y las unidades adecuadas para cada trabajo, por difícil que sea, siempre con el objetivo de garantizar la seguridad y la plena satisfacción de nuestro cliente. Nuestros técnicos hacen un primer estudio y valoración de la operación a realizar y te proporcionarán un presupuesto personalizado en función de las dificultades y circuntancias de cada servicio.</p>
+    </div>
+    <div class="boton" style="text-align: center; margin-top: 3%;">
+      <a href="servicios.php"><button type="button" class="btn btn-danger btn-lg">CONOCER NUESTROS SERVICIOS</button></a>
     </div>
   </div>
-
-  <div class="container mvv">
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="box box-height">
-                <div class="box-icon">
-                    <span class="fa fa-4x fa-check"></span>
-                </div>
-                <div class="info">
-                    <h4 class="text-center">Misión</h4>
-                    <p>  buscando la satisfacción total de las necesidades de nuestros clientes.
-
-                    Formar un equipo de calidad, porque somos una empresa de transporte de carga responsable, que brinda un servicio de calidad a tiempo y seguro. <!-- Soportamos nuestro desarrolo en un proceso de mejora continua con el objetivo de brindar el mejor servicio de carga consolidada a nivel nacional, equilibrando una justa rentabilidad para garantizar un crecimiento sólido continuo. --></p>
-                   
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="box box-height">
-                <div class="box-icon">
-                    <span class="fa fa-4x fa-fire"></span>
-                </div>
-                <div class="info">
-                    <h4 class="text-center">Visión</h4>
-                    <p>Ser una empresa líder en el ramo de transporte de carga, otorgándoles a nuestros clientes eficiencia en los procesos de distribución y ser reconocidos a nivel nacional por su seguridad, arraigo, oportunidad y precio justo.</p>
-                   
-                </div>
-            </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="box box-height">
-                <div class="box-icon">
-                    <span class="fa fa-4x fa-handshake-o"></span>
-                </div>
-                <div class="info">
-                    <h4 class="text-center">Valores</h4>
-                    <p><i class="fa fa-check" aria-hidden="true"></i> Colaboración <br>
-                       <i class="fa fa-check" aria-hidden="true"></i> Comunicación. <br>
-                       <i class="fa fa-check" aria-hidden="true"></i> Imagen de las unidades. <br>
-                       <i class="fa fa-check" aria-hidden="true"></i> Mantenimiento. <br>
-                       <i class="fa fa-check" aria-hidden="true"></i> Honestidad. <br>
-                       <i class="fa fa-check" aria-hidden="true"></i> Responsabilidad.
-                        </p>
-                    
-                </div>
-            </div>
-        </div>
-  </div>
 </div>
+ 
 
-<article class="elegir">
- <h1 class="text-center h1por">¿Por qué elegir a TAKIF TRANSPORTES?</h1>
- <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="box">
-                <div class="box-icon">
-                    <span class="fa fa-4x fa-star"></span>
-                </div>
-                <div class="info">
-                    <h4 class="text-center">Experiencia</h4>
-                </div>
-            </div>
+ <div class="section" style="padding: 5% 0%; background-color: #333;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
+            class="img-responsive">
+            <h2 style="color: #fff;" class="text-center">MISION</h2>
+            <p style="color: #fff;" class="text-center">Crear una red de transporte segura , puntual y eficiente, sobre la base de empresas y usuarios certificados, que garanticen optimas condiciones materiales y humanas del transportista para prestar el servicio y solvencia económica y moral del usuario para el pago oportuno y justo del servicio recibido.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
+            class="img-responsive">
+            <h2 style="color: #fff;" class="text-center">VISION</h2>
+            <p style="color: #fff;" class="text-center">Destacar como los prestadores de servicio de transportes de mercancías, que vuelven mas productivas a las empresas y mejorar sus entregas de mercancías. Somos la empresa de transportes numero uno en entregas a tiempo y con un cumplimiento del 100% en las condiciones de embarques solicitadas por el cliente.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
+            class="img-responsive">
+            <h2 style="color: #fff;" class="text-center">VALORES</h2>
+            <p style="color: #fff;" class="text-center">Calidad. <br>
+            Honestidad.<br>
+            Responsabilidad.<br>
+            Puntualidad.<br>
+            Austeridad.</p>
+          </div>
         </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="box">
-                <div class="box-icon">
-                    <span class="fa fa-4x fa-unlock-alt"></span>
-                </div>
-                <div class="info">
-                    <h4 class="text-center">Control de calidad</h4>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="box">
-                <div class="box-icon">
-                    <span class="fa fa-4x fa-money"></span>
-                </div>
-                <div class="info">
-                    <h4 class="text-center">Economia</h4>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="box">
-                <div class="box-icon">
-                    <span class="fa fa-4x fa-shield"></span>
-                </div>
-                <div class="info">
-                    <h4 class="text-center">seguridad</h4>
-                </div>
-            </div>
-        </div>
-</article>
-
-<p class="boton"><a href="contacto.php">Solicita una cotización</a></p>
-    
+        <div class="boton" style="text-align: center; margin-top: 3%;">
+      <a href="contacto.php"><button type="button" class="btn btn-danger btn-lg">CONTACTANOS</button></a>
+    </div>
+      </div>
+    </div>   
   
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>

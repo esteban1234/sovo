@@ -19,21 +19,130 @@
 .banneri{
    position: relative;
    width: 100%;
-    height:430px;
+    height:650px;
     background: url('../img/banneri.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.fondo{
+  width: 100%;
+  height: 650px;
+  background-color: rgba(255,255,255,.5);
+  overflow: hidden;
+}
+.btn-success{
+  background-color:  #000 ;
+  border: 0px  #000 solid;
+}
+.btn-danger{
+  background-color:  #000 ;
+  border: 0px  #000 solid;
+}
+.btn-primary{
+  background-color:  #000 ;
+  border: 0px  #000 solid;
+}
+.btn-warning{
+  background-color:  #000 ;
+  border: 0px  #000 solid;
+}
+a#select{
+  background-color: #AE9B9B;
+  color: #000;
+}
+
+.fondo p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color: #000;
+  text-align: center;
+  margin-top: 4%;
+  font-weight: bold;
+}
+.logo{
+  width: 35%;
+  text-align: center;
+  margin: 0 auto;
+}
+.texto{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #000;
+  text-align: justify;
+  padding: 2%;
+}
+.linea{
+  width: 15%;
+  height: 2px;
+  background-color: #000;
+}
+.div1, .div2{
+  /*display: inline-block;*/
+  float: left;
+  /*border: 2px red solid;*/
+  width: 50%;
+  vertical-align: top;
+  overflow: hidden;
+  height: 390px;
+}
+.imagen{
+   position: relative;
+   width: 100%;
+    height:200px;
+    background: url('../img/optimizar.png') center;
     background-size: cover;
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
     overflow: hidden;
 }
-
-/*.fondo{
+.div2-1{
   width: 100%;
-  height: 650px;
-  background-color: rgba(19,41,58,.1);
-  overflow: hidden;
-}*/
-
+  height:200px;
+  background-color: #333;
+}
+.tamano, .imagen2, .imagen3{
+  float: left;
+  vertical-align: top;
+  width: 50%;
+}
+.tamano{
+  /*width: 49%;*/
+  text-align: justify;
+  color: #fff;
+}
+.imagen2{
+   position: relative;
+   /*width: 50%;*/
+    height:200px;
+    background: url('../img/somos.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.div2-2{
+  width: 100%;
+  height:200px;
+  background-color: #333;
+}
+.imagen3{
+   position: relative;
+   /*width: 50%;*/
+    height:200px;
+    background: url('../img/carga.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.bancos{
+  width: 20%;
+  margin-left: 2%;
+  display: inline-block;
+}
 /*--------------FOOTER----------*/
 footer{
   width: 100%;
@@ -56,7 +165,26 @@ footer p{
 }
 
 /*------------nosotros--------------------*/
-
+.bannern{
+   position: relative;
+   width: 100%;
+    height:650px;
+    background: url('../img/bannern.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.tit{
+  text-align: center;
+}
+.texto2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  padding: 2%;
+}
 /*-----------------servicios--------------*/
 
 
