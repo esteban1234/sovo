@@ -58,20 +58,23 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive">
+            <figure class="mision">
+              
+            </figure>
             <h2 style="color: #fff;" class="text-center">MISION</h2>
             <p style="color: #fff;" class="text-center">Crear una red de transporte segura , puntual y eficiente, sobre la base de empresas y usuarios certificados, que garanticen optimas condiciones materiales y humanas del transportista para prestar el servicio y solvencia económica y moral del usuario para el pago oportuno y justo del servicio recibido.</p>
           </div>
           <div class="col-md-4">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive">
+            <figure class="vision">
+              
+            </figure>
             <h2 style="color: #fff;" class="text-center">VISION</h2>
             <p style="color: #fff;" class="text-center">Destacar como los prestadores de servicio de transportes de mercancías, que vuelven mas productivas a las empresas y mejorar sus entregas de mercancías. Somos la empresa de transportes numero uno en entregas a tiempo y con un cumplimiento del 100% en las condiciones de embarques solicitadas por el cliente.</p>
           </div>
           <div class="col-md-4">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive">
+            <figure class="valores">
+              
+            </figure>
             <h2 style="color: #fff;" class="text-center">VALORES</h2>
             <p style="color: #fff;" class="text-center">Calidad. <br>
             Honestidad.<br>

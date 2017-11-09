@@ -1,128 +1,103 @@
 <!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
 <body>
-<article class="banner">
+    
+    <div class="banners">
   <div class="fondo">
+    <div class="container" style="margin-top: 2%;">
+     <div class="col-md-3" >
+        <a class="btn btn-block btn-lg btn-success" href="../index.php" >
+            <i class="fa fa-bars" id="icone_grande"></i> <br><br>
+            <span class="texto_grande"> INDEX</span></a>
+      </div>
+      <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-danger" href="nosotros.php">
+            <i class="fa fa-users" id="icone_grande"></i> <br><br>
+            <span class="texto_grande"> NOSOTROS</span></a>
+      </div>
+      <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-primary" href="servicios.php">
+            <i class="fa fa-cog" id="icone_grande"></i> <br><br>
+            <span class="texto_grande"> SERVICIOS</span></a>
+      </div>
+      <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-warning" href="contacto.php"  id="select">
+            <i class="fa fa-phone" id="icone_grande"></i> <br><br>
+            <span class="texto_grande"> CONTACTO</span></a>
+      </div> 
+    </div>
 
-  <article class="contenlogocorreo">
-    <figure class="pull-left">
-    <img src="../img/takit.png" alt="Transporte Takif" class="img-responsive">
-  </figure>
-
-  <article class="correoarriba pull-right">
-    <i class="fa fa-envelope-o fa-4x iconoarriba pull-left" aria-hidden="true"></i> <p class="textocorreoarriba pull-right"><a href="mailto:info@takif.net">info@takif.net</a></p>
-  </article>
-  </article>
-
-  <article class="contenmenutexto">
-     <div class="vertical-menu pull-left">
-  <a href="../index.php">INDEX <i class="fa fa-home fa-2x pull-right" aria-hidden="true"></i></a>
-  <a href="nosotros.php">NOSOTROS <i class="fa fa-user fa-2x pull-right" aria-hidden="true"></i></a>
-  <a href="servicios.php">SERVICIOS <i class="fa fa-briefcase fa-2x pull-right" aria-hidden="true"></i></a>
-  <a href="contacto.php" class="active">CONTACTO <i class="fa fa-phone fa-2x pull-right" aria-hidden="true"></i></a>
+    <p>EN SOVO TRANSPORTADORA Y LOGISTICA SA DE CV <br>QUEREMOS CONTRIBUIR AL EXITO DE TU EMPRESA</p>
+    <figure class="logo">
+      <img src="../img/sovo.png" alt="SOVO" class="img-responsive">
+    </figure>
+  </div>
 </div>
-    <p class="texto-banner pull-right">Te esperamos! ponte en contacto con nosotros</p>
-    <p class="texto-banner2 pull-right">¡Llevamos tu mercancia a donde tu quieras!</p>
-    <!-- <p class="boton"><a href="contacto.php">Solicita una cotización</a></p> -->
-  </article>
-  </div>
-</article>
 
-<h1 class="text-center" style="color: #74A4D0; margin-top: 5%;">Contacto</h1>
-<article class="elegir">
- <!-- <h1 class="text-center h1por">¿Por qué elegir a TAKIF TRANSPORTES?</h1> -->
- <div class="col-xs-12 col-sm-4 col-md-3">
-            <div class="box">
-                <div class="box-icon">
-                    <span class="fa fa-4x fa-clock-o"></span>
-                </div>
-                <div class="info">
-                    <h4 class="text-center">HORARIO</h4>
-                    <p  style="text-align: center;">Lunes a Viernes de 9am a 6pm</p>
-                </div>
-            </div>
-        </div>
+<div class="container" style="padding: 5% 0%;">
+    <p class="texto">Si necesita ayuda o ponerse en contacto con nosotros, a continuación listamos la información de contacto pertinente o si lo prefiere, envíenos un mensaje a través de nuestra pagina usando la forma adjunta. Por favor incluya su información para poder ponernos en contacto con Usted.</p>
+    <div class="row">
+        <form role="form" id="contact-form" class="contact-form">
+                    <div class="row">
+                        <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Escribe tu nombre completo">
+                        </div>
+                    </div>
+                        <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="Escribe tu correo completo">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="email" autocomplete="off" id="email" placeholder="Escribe tu número teléfonico">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                        <div class="form-group">
+                            <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Escribe tu comentario"></textarea>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-12">
+                  <button type="submit" class="btn main-btn pull-right">ENVIAR MENSAJE</button>
+                  </div>
+                  </div>
+                </form>
+    </div>
+</div>
 
-        <div class="col-xs-12 col-sm-4 col-md-3">
-            <div class="box">
-                <div class="box-icon">
-                    <span class="fa fa-4x fa-phone"></span>
-                </div>
-                <div class="info">
-                    <h4 class="text-center">TELEFONO</h4>
-                    <p style="text-align: center;">Pendiente</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4 col-md-3">
-            <div class="box">
-                <div class="box-icon">
-                    <span class="fa fa-4x fa-envelope-o"></span>
-                </div>
-                <div class="info">
-                    <h4 class="text-center">CORREO</h4>
-                    <p style="text-align: center;">info@takif.net</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-3">
-            <div class="box">
-                <div class="box-icon">
-                    <span class="fa fa-4x fa-map-marker"></span>
-                </div>
-                <div class="info">
-                    <h4 class="text-center">DIRECCION</h4>
-                    <p style="text-align: center;">C. Homero #229 entre C. Taine y C. Fco. Petrarca, Col. Polanco V Sección, Miguel Hidalgo, México. C.P 11560</p>
-                </div>
-            </div>
-        </div>
-</article>
-
-<article class="contenformmapa">
-  <div class="form1 pull-left">
-
-    <form role="form" action="" method="" onSubmit="return false">
-        <h1 style="text-align: center; color: #74A4D0; margin-top: 5%;">Formulario de contacto</h1>
-        <div id="_AJAX_PRE_"></div>
-        <br>
-        <div class="required-field-block">
-            <input type="text" id="txtNOMBRE" placeholder="Escribe tu nombre completo" class="form-control">
-            <div class="required-icon">
-                <div class="text">*</div>
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d675.2930413314666!2d-93.1274615724434!3d16.774968511746223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd8c338bc3471%3A0x1b324e03b19e1090!2sPomarrosa+46%2C+Pomarrosa%2C+29014+Tuxtla+Guti%C3%A9rrez%2C+Chis.!5e0!3m2!1ses-419!2smx!4v1510269995347" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         
-        <div class="required-field-block">
-            <input type="text" id="txtCORREO" placeholder="Escribe tu correo" class="form-control">
-            <div class="required-icon">
-                <div class="text">*</div>
-            </div>
+        <div class="col-md-4">
+            <h2>Datos Empresa</h2>
+            <address>
+                <strong>Dirección</strong><br>
+                C.Pomarrosa #6 MZ 46 por Esq. Pomarrosa y Amapola.<br> COL. Potinaspak, Tuxtla Gutierrez, Chiapas.<br> C.P. 29018
+            </address>
+            <address>
+                <strong>Teléfono</strong><br>
+                PENDIENTE
+            </address>
+            <address>
+                <strong>Correo</strong><br>
+                info@transportesovo.com
+            </address>
+            <address>
+                <strong>Dirección</strong><br>
+                Lunes a Viernes de 9 am a 6 pm
+            </address>
         </div>
-
-        <!-- <input type="text" placeholder="Phone" class="form-control"> -->
-        <div class="required-field-block">
-            <input type="text" id="txtTELEFONO" placeholder="Escribe tu teléfono" class="form-control">
-            <div class="required-icon">
-                <div class="text">*</div>
-            </div>
-        </div>
- 
-        <div class="required-field-block">
-            <textarea rows="3" id="txtCOMENTARIO" class="form-control" placeholder="Escribenos un mensaje"></textarea>
-            <div class="required-icon">
-                <div class="text">*</div>
-            </div>
-        </div>
-        
-        <button class="btn btn-primary" onclick="sendCORREO()">ENVIAR</button>
-    </form>
-
-  </div>
-  <div class="mapa pull-right">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.4630188456226!2d-99.18755508564473!3d19.43559398688259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8abec191491%3A0x1e14be8e0ce79fcd!2sAvenida+Homero+229%2C+Polanco%2C+Polanco+V+Secc%2C+11560+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1496257259009" width="600" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </div>
-</article>
+    </div>
+</div>
 
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>

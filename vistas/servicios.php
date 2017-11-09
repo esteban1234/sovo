@@ -1,104 +1,100 @@
 <!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
 <body>
-<article class="banner">
+
+<div class="banners">
   <div class="fondo">
+    <div class="container" style="margin-top: 2%;">
+     <div class="col-md-3" >
+        <a class="btn btn-block btn-lg btn-success" href="../index.php" >
+            <i class="fa fa-bars" id="icone_grande"></i> <br><br>
+            <span class="texto_grande"> INDEX</span></a>
+      </div>
+      <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-danger" href="nosotros.php">
+            <i class="fa fa-users" id="icone_grande"></i> <br><br>
+            <span class="texto_grande"> NOSOTROS</span></a>
+      </div>
+      <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-primary" href="servicios.php"  id="select">
+            <i class="fa fa-cog" id="icone_grande"></i> <br><br>
+            <span class="texto_grande"> SERVICIOS</span></a>
+      </div>
+      <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-warning" href="contacto.php">
+            <i class="fa fa-phone" id="icone_grande"></i> <br><br>
+            <span class="texto_grande"> CONTACTO</span></a>
+      </div> 
+    </div>
 
-  <article class="contenlogocorreo">
-    <figure class="pull-left">
-    <img src="../img/takit.png" alt="Transporte Takif" class="img-responsive">
-  </figure>
-
-  <article class="correoarriba pull-right">
-    <i class="fa fa-envelope-o fa-4x iconoarriba pull-left" aria-hidden="true"></i> <p class="textocorreoarriba pull-right"><a href="mailto:info@takif.net">info@takif.net</a></p>
-  </article>
-  </article>
-
-  <article class="contenmenutexto">
-     <div class="vertical-menu pull-left">
-  <a href="../index.php">INDEX <i class="fa fa-home fa-2x pull-right" aria-hidden="true"></i></a>
-  <a href="nosotros.php">NOSOTROS <i class="fa fa-user fa-2x pull-right" aria-hidden="true"></i></a>
-  <a href="servicios.php" class="active">SERVICIOS <i class="fa fa-briefcase fa-2x pull-right" aria-hidden="true"></i></a>
-  <a href="contacto.php">CONTACTO <i class="fa fa-phone fa-2x pull-right" aria-hidden="true"></i></a>
+    <p>24 HORAS EN LA ENTREGA DE <br>SU CARGA CONSOLIDADA</p>
+    <figure class="logo">
+      <img src="../img/sovo.png" alt="SOVO" class="img-responsive">
+    </figure>
+    <div class="boton" style="text-align: center; margin-top: 3%;">
+      <a href="contacto.php"><button type="button" class="btn btn-danger btn-lg">CONTACTANOS</button></a>
+    </div>
+    
+  </div>
 </div>
-    <p class="texto-banner pull-right">Tu carga con un control de calidad estricto</p>
-    <p class="texto-banner2 pull-right">¡Llevamos tu mercancia a donde tu quieras!</p>
-    <p class="boton"><a href="contacto.php">Solicita una cotización</a></p>
-  </article>
+
+<div class="section" style="padding: 5% 0%;">
+  <div class="container">
+    <div class="row">
+      <h1 class="tit">SERVICIO DEDICADO</h1>
+      <p class="text-center texto2">Consta de camiones a su entera disposición, y especialmente para aquellas compañías que sus envíos son tan regulares que requieren disponibilidad de unidades en cualquier momento, Usted puede convenir una renta mensual, y un costo por kilómetro muy bajo. <br><br>
+        Características básicas: <br><br>
+
+      Usted no tendrá que invertir en equipo de transportes <br>
+      No tendrá que negociar con varios transportistas<br>
+      Un precio convenido con anterioridad le permitirá mantener estabilidad en sus costos.</p>
+    </div>
   </div>
-</article>
-
-<h1 class="text-center text-center-size" style="color: #74A4D0; margin-top: 5%;">Nuestros servicios</h1>
-
-<div class="grid">
-          <figure class="effect-julia">
-            <img src="../img/paqueteria2.jpeg" alt="img21"/>
-            <figcaption>
-              <h2>Paquetería o viaje consolidado</h2>
-              <div>
-                <p>Envío desde un paquete el cual <br> se concentra  en nuestros centros de <br>distribución  para enviarse a su destino.</p>
-              </div>
-              <a href="#">View more</a>
-            </figcaption>     
-          </figure>
-          <figure class="effect-julia">
-            <img src="../img/carga2.jpg" alt="img22"/>
-            <figcaption>
-              <h2>Maniobras de carga y descarga</h2>
-              <div>
-                <p>Servicio para subir desde la sede<br>  de partida y/o bajar la mercancía <br> del camión en su llegada al destino</p>
-              </div>
-              <a href="#">View more</a>
-            </figcaption>     
-          </figure>
+</div>
+<div class="section" style="padding: 5% 0%; background-color: #333;">
+  <div class="container">
+    <div class="row">
+      <h1 class="tit" style="color: #fff; text-transform: uppercase;">Centro de distribución</h1>
+      <p class="text-center texto2" style="color: #fff;">SOVO cuenta con la infraestructura para poder administrar y almacenar sus inventarios, contamos con bodegas y equipo de transporte necesario para lograr que usted se dedique a vender, y que nosotros nos preocupemos por que su producto se encuentre en el punto de venta, en tiempo y forma.</p>
+    </div>
   </div>
+</div>
+<div class="section" style="padding: 5% 0%;">
+  <div class="container">
+    <div class="row">
+      <h1 class="tit">SERVICIO CONSOLIDADO</h1>
+      <p class="text-center texto2">Nuestro servicio de transporte de carga consolidada, esta diseñado para enviar mercancías o paquetes paletizados y tambos de manera segura, rápida, y económica a varios puntos de la República Mexicana con la certeza que los mismos seran entregados a tiempo y en excelente estado ya que todos nuestros camiones cuentan con suspensión de aire.<br><br>
+        Características básicas: <br><br>
 
-  <div class="grid">
-          <figure class="effect-julia">
-            <img src="../img/completo2.jpg" alt="img21"/>
-            <figcaption>
-              <h2>Camión completo</h2>
-              <div>
-                <p>Contratación de un trailer o torton completo <br> para el traslado de su <br> mercancía en forma exclusiva.</p>
-              </div>
-              <a href="#">View more</a>
-            </figcaption>     
-          </figure>
-          <figure class="effect-julia">
-            <img src="../img/ocurre.jpg" alt="img22"/>
-            <figcaption>
-              <h2>Ocurre oficina</h2>
-              <div>
-                <p>Servicio en el cual el cliente<br> acude a nuestros Centros de Acopio<br>  para recoger su mercancía.</p>
-              </div>
-              <a href="#">View more</a>
-            </figcaption>     
-          </figure>
+      Recolección puerta a puerta<br>
+      Para la carga de palets y tambos<br>
+      Desde 1.01 Ton. hasta 28 Ton. de peso máximo<br>
+      Entrega Express 24hrs.<br>
+      Entrega Óptima 48hrs.</p>
+    </div>
   </div>
+</div>
 
-  <div class="grid">
-          <figure class="effect-julia">
-            <img src="../img/viajes.jpg" alt="img21"/>
-            <figcaption>
-              <h2>Viajes locales</h2>
-              <div>
-                <p>Servicio de transporte de carga dentro<br>  de la misma ciudad o localidad <br> en la que se encuentra.</p>
-              </div>
-              <a href="#">View more</a>
-            </figcaption>     
-          </figure>
-          <figure class="effect-julia">
-            <img src="../img/entrega.png" alt="img22"/>
-            <figcaption>
-              <h2>Entrega a domicilio</h2>
-              <div>
-                <p>Servicio puerta a puerta en el que<br> nuestras  propias unidades acuden <br>al domicilio del cliente en destino para<br> hacer la entrega de la mercancía.</p>
-              </div>
-              <a href="#">View more</a>
-            </figcaption>     
-          </figure>
+<div class="section" style="padding: 5% 0%; background-color: #333;">
+  <div class="container">
+    <div class="row">
+      <h1 class="tit" style="color: #fff; text-transform: uppercase;">CAMION COMPLETO</h1>
+      <p class="text-center texto2" style="color: #fff;">Dirigido a aquellos clientes que requieran un transporte de carga completo para el traslado de sus mercancias y que además necesiten un control para la recolección puerta a puerta, bitácora de embarque, control de seguimiento vía satélite entre otros servicios.<br><br>
+        Características básicas: <br><br>
+
+      Recolección puerta a puerta<br>
+      Asesoría y logística<br>
+      Hasta 28 Ton. de peso máximo<br>
+      A cualquier destino de la República Mexicana<br>
+      Programa Just in time<br>
+      Contamos con diferentes tipos de cajas Caja seca | Refrigerada | Plataforma | Exceso de dimensiones</p>
+    </div>
   </div>
-
+   <div class="boton" style="text-align: center; margin-top: 3%;">
+      <a href="contacto.php"><button type="button" class="btn btn-danger btn-lg">CONTACTANOS</button></a>
+    </div>
+</div>
+  
 
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>

@@ -83,7 +83,7 @@
     <div class="row">
           <div class="col-md-5 col-md-offset-1">
             <h1 style="color: #fff; text-transform: uppercase;">¡Fletes a credito!</h1>
-            <p class="texto" style="color: #fff;">Realiza tus pagos via teléfonica o acude a nuestras oficinas <br>
+            <p class="texto" style="color: #fff;">Realiza tus pagos via teléfonica o acude a nuestras oficinas, <br>
             3, 6, 9 y 12 meses sin intereses con tus tarjetas de crédito participantes.</p>
             <figure class="bancos">
               <img src="img/logo1.png" class="img-responsive" alt="">
