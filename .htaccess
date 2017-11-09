@@ -1,0 +1,2 @@
+ ErrorDocument 403 http://transportesovo.com/index.php
+ Options -Indexes
