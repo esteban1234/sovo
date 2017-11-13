@@ -54,6 +54,10 @@ a#select{
   color: #000;
 }
 
+.op-menu{
+  display: none;
+}
+
 .fondo p{
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
